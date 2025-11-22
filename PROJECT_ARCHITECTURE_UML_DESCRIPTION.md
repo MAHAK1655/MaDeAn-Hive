@@ -755,21 +755,4 @@ backend-spring boot/
     ├── controller/ (REST Endpoints)
     ├── security/ (JWT, Authentication)
     └── exception/ (Custom Exceptions)
-```
 
----
-
-## Summary for UML Diagrams
-
-This architecture supports:
-1. **Class Diagrams** - For data model relationships (User → Order → OrderItem, etc.)
-2. **Sequence Diagrams** - For authentication, purchase, and payment flows
-3. **Activity Diagrams** - For business processes (seller onboarding, order management)
-4. **Component Diagrams** - For Redux architecture and async thunks
-5. **Deployment Diagrams** - Frontend (Vite/React) + Backend (Spring Boot) + MySQL
-
-All redux slices follow Redux Toolkit conventions with:
-- `initialState` definitions
-- `reducers` for synchronous actions
-- `extraReducers` with async thunk handlers (pending/fulfilled/rejected)
-- Selectors for state access from components
