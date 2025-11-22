@@ -114,19 +114,19 @@ Frontend will run on `http://localhost:5173`
 ## Project Structure
 
 ```
-madean-hive/
+MaDeAn-hive/
 ├── frontend-vite/
 │   ├── src/
-│   │   ├── Redux Toolkit/          # State management
+│   │   ├── Redux Toolkit/          
 │   │   │   ├── Store.ts
-│   │   │   ├── Customer/           # Customer state slices
-│   │   │   ├── Seller/             # Seller state slices
-│   │   │   └── Admin/              # Admin state slices
-│   │   ├── types/                  # TypeScript interfaces
-│   │   ├── routes/                 # Route configuration
-│   │   ├── customer/pages/         # Customer UI
-│   │   ├── seller/pages/           # Seller dashboard
-│   │   └── admin/pages/            # Admin panel
+│   │   │   ├── Customer/           
+│   │   │   ├── Seller/             
+│   │   │   └── Admin/              
+│   │   ├── types/                  
+│   │   ├── routes/                 
+│   │   ├── customer/pages/         
+│   │   ├── seller/pages/           
+│   │   └── admin/pages/            
 │   └── package.json
 │
 └── backend-spring-boot/
