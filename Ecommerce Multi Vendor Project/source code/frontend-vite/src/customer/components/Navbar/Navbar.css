@@ -1,0 +1,20 @@
+/* Logo Styles */
+.logo {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Category Styles */
+.category {
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+/* Backdrop Blur Effect */
+.blur-bg {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
